@@ -1,8 +1,59 @@
 body {
-  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+/* bagian header biru */
+.header {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.header h1 {
   color: navy;
-  margin-left: 20px;
+  margin: 0;
+}
+
+.header p {
+  color: darkblue;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* bagian text-align */
+.text-align {
+  text-align: justify;
+  margin: 30px;
+}
+
+.text-align h2 {
+  text-align: center;
+}
+
+.text-align p.note {
+  text-align: right;
+  font-size: 14px;
+  color: black;
+}
+
+.text-align p {
+  margin-top: 10px;
+}
+
+/* bagian font-family */
+.font-family {
+  margin: 30px;
+}
+
+.font-family h2 {
+  text-align: left;
+}
+
+.font-family .times {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.font-family .arial {
+  font-family: Arial, sans-serif;
 }
