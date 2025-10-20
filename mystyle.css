@@ -4,10 +4,10 @@ body {
   padding: 0;
 }
 
-/* bagian header biru */
+/* hanya bagian header yang biru */
 .header {
   background-color: lightblue;
-  padding: 10px;
+  padding: 15px;
 }
 
 .header h1 {
@@ -23,12 +23,11 @@ body {
 
 /* bagian text-align */
 .text-align {
-  text-align: justify;
   margin: 30px;
 }
 
 .text-align h2 {
-  text-align: center;
+  text-align: center;  /* biar judulnya rata tengah */
 }
 
 .text-align p.note {
@@ -38,6 +37,7 @@ body {
 }
 
 .text-align p {
+  text-align: justify;
   margin-top: 10px;
 }
 
