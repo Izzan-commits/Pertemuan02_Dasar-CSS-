@@ -1,71 +1,59 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Latihan CSS Dasar</title>
   <style>
-    /* === Selector Elemen === */
+    /* Selector Elemen */
     p {
       text-align: center;
       color: red;
     }
 
-    /* === Selector ID === */
-    #para1 {
+    /* Selector ID */
+    #hello {
       text-align: right;
       color: red;
     }
 
-    /* === Selector Kelas === */
+    /* Paragraf biasa tetap hitam */
+    #default {
+      color: black;
+      text-align: left;
+    }
+
+    /* Selector Kelas */
     .center {
       text-align: center;
       color: red;
     }
 
-    /* === Selector Kelas untuk Elemen HTML Tertentu === */
+    /* Selector Kelas untuk Elemen HTML Tertentu */
     p.center {
-      text-align: right;
+      text-align: center;
       color: red;
     }
   </style>
 </head>
 <body>
 
-  <!-- Selector Elemen -->
   <h1>Selector Elemen</h1>
-  <div>
-    <p>Every paragraph will be affected by the style.</p>
-    <p>Me too!</p>
-    <p>And me!</p>
-  </div>
+  <p>Every paragraph will be affected by the style.</p>
+  <p>Me too!</p>
+  <p>And me!</p>
 
-  <hr>
-
-  <!-- Selector ID -->
   <h1>Selector ID</h1>
-  <div>
-    <p id="para1">Hello World!</p>
-    <p>This paragraph is not affected by the style.</p>
-  </div>
+  <p id="hello">Hello World!</p>
+  <p id="default">This paragraph is not affected by the style.</p>
 
-  <hr>
-
-  <!-- Selector Kelas -->
   <h1>Selector Kelas</h1>
-  <div>
-    <h2 class="center">Red and center-aligned heading</h2>
-    <p class="center">Red and center-aligned paragraph.</p>
-  </div>
+  <h2 class="center">Red and center-aligned heading</h2>
+  <p class="center">Red and center-aligned paragraph.</p>
 
-  <hr>
-
-  <!-- ===== Selector Kelas untuk Elemen HTML Tertentu ===== -->
   <h1>Selector Kelas untuk Elemen HTML Tertentu</h1>
-  <div>
-    <h2 class="center">This heading will not be affected</h2>
-    <p class="center">This paragraph will be red and center-aligned.</p>
-  </div>
+  <h2>This heading will not be affected</h2>
+  <p class="center">This paragraph will be red and center-aligned.</p>
 
 </body>
 </html>
