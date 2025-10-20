@@ -5,29 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dokumen HTML Dasar</title>
   <style> 
-    .selector1{ 
+    /* Selector Elemen */
+    p {
+      text-align: center;
+      color: red;
+    }
+
+    /* Selector Class */
+    .selector1 { 
       text-align: center; 
       color: red; 
-    } 
-    #selector2{ 
+    }
+
+    /* Selector ID */
+    #selector2 { 
       text-align: center; 
       color: red; 
-    {
+    }
   </style>
 </head>
 <body>
-  <!-- Selector elemen -->
-  <h1>Selector</h1>
-  <div class="Selector1">
+  <!-- Selector Elemen -->
+  <h1>Selector Elemen</h1>
+  <div class="selector1">
     <p>Every paragraph will be affected by the style.</p> 
-    <p id="para1">Me too!</p> 
+    <p>Me too!</p> 
     <p>And me!</p> 
   </div>
 
   <!-- Selector ID -->
   <h1>Selector ID</h1>
-  <div class="Selector2">
-    <p id="Selector2">Hello World!</p> 
+  <div>
+    <p id="selector2">Hello World!</p> 
     <p>This paragraph is not affected by the style.</p>
+  </div>
 </body>
 </html>
