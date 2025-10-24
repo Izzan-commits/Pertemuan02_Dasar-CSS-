@@ -8,7 +8,7 @@ h1 {
 }
 
 /* Dashed */
-.cinta {
+.lorem {
     border: 4px dashed orange;
     padding: 10px;
     margin: 10px auto;
@@ -16,7 +16,7 @@ h1 {
 }
 
 /* Dotted */
-.dotted {
+.cinta {
     border: 4px dotted pink;
     padding: 10px;
     margin: 10px auto;
