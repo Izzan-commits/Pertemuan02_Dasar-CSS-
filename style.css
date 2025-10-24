@@ -3,8 +3,8 @@ body {
 }
 
 h1 {
-    color: darkblue;
-    margin-bottom: 30px;
+    color: red;
+    border: 15px solid blue;
 }
 
 /* Dashed */
