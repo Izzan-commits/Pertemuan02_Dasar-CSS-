@@ -1,29 +1,76 @@
 body {
     text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
 }
 
-/* Judul */
 h1 {
-    color: red;
-    border: 15px solid blue;
+    color: darkblue;
+    margin-bottom: 30px;
 }
 
-/* Paragraf dashed */
-.lorem {
-    border: 5px dashed orange;
+/* Dashed */
+.dashed {
+    border: 4px dashed orange;
     padding: 10px;
-    margin: 20px auto;
-    width: 80%;
+    margin: 10px auto;
+    width: fit-content;
 }
 
-/* Paragraf dotted */
-.cinta {
-    border: 5px dotted pink;
-    color: deeppink;
+/* Dotted */
+.dotted {
+    border: 4px dotted pink;
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
 }
 
-/* Paragraf double */
+/* Double */
 .double {
     border: 6px double green;
-    color: darkgreen;
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
+    background-color: #eaffea;
+}
+
+/* Solid */
+.solid {
+    border: 3px solid blue;
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
+    color: blue;
+}
+
+/* Groove */
+.groove {
+    border: 6px groove purple;
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+/* Ridge */
+.ridge {
+    border: 6px ridge teal;
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+/* Inset */
+.inset {
+    border: 6px inset gray;
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+/* Outset */
+.outset {
+    border: 6px outset brown;
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
 }
