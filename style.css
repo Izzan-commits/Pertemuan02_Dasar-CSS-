@@ -51,4 +51,47 @@ h1 {
 /* Ridge */
 .ridge {
     border: 6px ridge teal;
-    pa
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+/* Inset */
+.inset {
+    border: 6px inset gray;
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+/* Outset */
+.outset {
+    border: 6px outset brown;
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+/* ======== MENU BAR ======== */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333; /* ← betul: bukan background-colour */
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
