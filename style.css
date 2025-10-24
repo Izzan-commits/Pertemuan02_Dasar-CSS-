@@ -1,7 +1,5 @@
 body {
     text-align: center;
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
 }
 
 h1 {
@@ -10,7 +8,7 @@ h1 {
 }
 
 /* Dashed */
-.dashed {
+.cinta {
     border: 4px dashed orange;
     padding: 10px;
     margin: 10px auto;
@@ -31,7 +29,6 @@ h1 {
     padding: 10px;
     margin: 10px auto;
     width: fit-content;
-    background-color: #eaffea;
 }
 
 /* Solid */
