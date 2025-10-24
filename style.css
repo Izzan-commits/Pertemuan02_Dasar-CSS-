@@ -1,14 +1,29 @@
-body{
-  text-align: center;
-  width: auto;
-  height: auto;
+body {
+    text-align: center;
 }
 
-h1{
-  color: red;
-  border: 15px solid blue;
+/* Judul */
+h1 {
+    color: red;
+    border: 15px solid blue;
 }
 
-p{
-  border: 5px dashed orange;
+/* Paragraf dashed */
+.lorem {
+    border: 5px dashed orange;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Paragraf dotted */
+.cinta {
+    border: 5px dotted pink;
+    color: deeppink;
+}
+
+/* Paragraf double */
+.double {
+    border: 6px double green;
+    color: darkgreen;
 }
